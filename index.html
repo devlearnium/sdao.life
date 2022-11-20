@@ -1,0 +1,930 @@
+<html lang="zxx" class="js"><head>
+    <meta charset="utf-8">
+    <meta name="author" content="SDAO">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="images/favicon.svg">
+    <!-- Site Title  -->
+    <title>| SDAO </title>
+    <!-- Bundle and Base CSS -->
+    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=200">
+    <link rel="stylesheet" href="assets/css/style-dark.css?ver=200">
+    <!-- Extra CSS -->
+    <link rel="stylesheet" href="assets/css/theme.css?ver=200">
+    <style id="__web-inspector-hide-shortcut-style__">
+        .__web-inspector-hide-shortcut__,
+        .__web-inspector-hide-shortcut__ *,
+        .__web-inspector-hidebefore-shortcut__::before,
+        .__web-inspector-hideafter-shortcut__::after {
+            visibility: hidden !important;
+        }
+    </style>
+<style data-jss="" data-meta="MuiDialog">
+@media print {
+  .MuiDialog-root {
+    position: absolute !important;
+  }
+}
+.MuiDialog-scrollPaper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MuiDialog-scrollBody {
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.MuiDialog-scrollBody:after {
+  width: 0;
+  height: 100%;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+.MuiDialog-container {
+  height: 100%;
+  outline: 0;
+}
+@media print {
+  .MuiDialog-container {
+    height: auto;
+  }
+}
+.MuiDialog-paper {
+  margin: 32px;
+  position: relative;
+  overflow-y: auto;
+}
+@media print {
+  .MuiDialog-paper {
+    box-shadow: none;
+    overflow-y: visible;
+  }
+}
+.MuiDialog-paperScrollPaper {
+  display: flex;
+  max-height: calc(100% - 64px);
+  flex-direction: column;
+}
+.MuiDialog-paperScrollBody {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.MuiDialog-paperWidthFalse {
+  max-width: calc(100% - 64px);
+}
+.MuiDialog-paperWidthXs {
+  max-width: 444px;
+}
+@media (max-width:507.95px) {
+  .MuiDialog-paperWidthXs.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthSm {
+  max-width: 600px;
+}
+@media (max-width:663.95px) {
+  .MuiDialog-paperWidthSm.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthMd {
+  max-width: 960px;
+}
+@media (max-width:1023.95px) {
+  .MuiDialog-paperWidthMd.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthLg {
+  max-width: 1280px;
+}
+@media (max-width:1343.95px) {
+  .MuiDialog-paperWidthLg.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthXl {
+  max-width: 1920px;
+}
+@media (max-width:1983.95px) {
+  .MuiDialog-paperWidthXl.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperFullWidth {
+  width: calc(100% - 64px);
+}
+.MuiDialog-paperFullScreen {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  max-width: 100%;
+  max-height: none;
+  border-radius: 0;
+}
+.MuiDialog-paperFullScreen.MuiDialog-paperScrollBody {
+  margin: 0;
+  max-width: 100%;
+}
+</style></head>
+
+<body class="nk-body body-wider theme-dark mode-onepage has-touch nk-nio-theme page-loaded chrome no-touch" cz-shortcut-listen="true">
+    <div class="nk-wrap">
+        <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark has-fixed" id="header">
+            <!-- Header @s -->
+            <div class="header-main">
+                <div class="header-container container">
+                    <div class="header-wrap">
+                        <!-- Logo @s -->
+                        <div class="header-logo logo animated fadeInDown" data-animate="fadeInDown" data-delay=".65" style="visibility: visible; animation-delay: 0.65s;">
+                            <a href="./" class="logo-link">
+                                <img class="logo-dark" src="images/logo.png" srcset="images/logo2x.png 2x" alt="logo">
+                                <img class="logo-light" src="images/logo-white.svg" alt="logo">
+                            </a>
+                        </div>
+                        <!-- Menu Toogle @s -->
+                        <div class="header-nav-toggle">
+                            <a href="#" class="navbar-toggle" data-menu-toggle="example-menu-04">
+                                <div class="toggle-line">
+                                    <span></span>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Menu @s -->
+                        <div class="header-navbar header-navbar-s1">
+                            <nav class="header-menu" id="example-menu-04">
+                                <ul class="menu menu-s2 animated fadeInDown" data-animate="fadeInDown" data-delay=".75" style="visibility: visible; animation-delay: 0.75s;">
+                                    <!-- <li class="menu-item"><a class="menu-link nav-link" href="#ico">What is ico</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#token">Token Sale</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">Roadmap</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#team">Team</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#partners">Partners</a></li>
+                                    <li class="menu-item has-sub">
+                                        <a class="menu-link nav-link menu-toggle" href="#">More</a>
+                                        <ul class="menu-sub menu-drop">
+                                            <li class="menu-item"><a class="menu-link nav-link" href="#media-partner">Media Partner</a></li>
+                                            <li class="menu-item"><a class="menu-link nav-link" href="#blog">Blogs</a></li>
+                                            <li class="menu-item"><a class="menu-link nav-link" href="#faqs">Faqs</a></li>
+                                        </ul>
+                                    </li> -->
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#contact">Contact</a></li>
+                                </ul>
+                                <ul class="menu-btns animated fadeInDown" data-animate="fadeInDown" data-delay=".85" style="visibility: visible; animation-delay: 0.85s;">
+
+                                    <li><a href="https://anoya.io/swap" class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round"><span>Buy SDT</span></a></li>
+                                </ul>
+                            </nav>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                            <div class="header-navbar-overlay"></div>
+                        <div class="header-navbar-overlay"></div><div class="header-navbar-overlay"></div><div class="header-navbar-overlay"></div><div class="header-navbar-overlay"></div><div class="header-navbar-overlay"></div></div>
+                        <!-- .header-navbar @e -->
+                    </div>
+                </div>
+            </div>
+            <!-- .header-main @e -->
+            <!-- Banner @s -->
+            <div class="header-banner bg-theme-dark has-ovm has-mask">
+                <div class="nk-banner">
+                    <div class="banner banner-mask-fix banner-fs banner-single tc-light">
+                        <div class="banner-wrap">
+                            <div class="container">
+                                <div class="row align-items-center justify-content-center gutter-vr-30px">
+                                    <div class="col-lg-6 order-lg-last">
+                                        <div class="banner-gfx banner-gfx-re-s3 animated fadeInUp" data-animate="fadeInUp" data-delay="1.25" style="visibility: visible; animation-delay: 1.25s;">
+                                            <img src="images/dark/gfx-d-dark.png" alt="header">
+                                            <img class="banner-gfx-icon banner-gfx-icon-1" src="images/icons/icon-xrp.png" alt="">
+                                            <img class="banner-gfx-icon banner-gfx-icon-2" src="images/icons/icon-binance.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="banner-caption wide-auto text-center text-lg-start">
+                                            <div class="cpn-head mt-0">
+                                                <h1 class="title title-xl-2 title-semibold animated fadeInUp" data-animate="fadeInUp" data-delay="1.35" style="visibility: visible; animation-delay: 1.35s;">Sustainable DAO</h1>
+                                            </div>
+                                            <div class="cpn-text cpn-text-s1">
+                                                <!--<p class="lead animated fadeInUp" data-animate="fadeInUp" data-delay="1.45" style="visibility: visible; animation-delay: 1.45s;">SDAO Token, SDT</p> -->
+                                                <div class="cpn-text cpn-text-s1">
+                                                    <p class="lead tc-light animated fadeInUp" data-animate="fadeInUp" data-delay="1.45" style="visibility: visible; animation-delay: 1.45s;">DAO is a decentralized autonomous/anonymous organization.</p>
+                                                </div>
+                                              	 <div class="cpn-text cpn-text-s1">
+                                                    <p class="lead tc-light animated fadeInUp" data-animate="fadeInUp" data-delay="1.45" style="visibility: visible; animation-delay: 1.45s;">Sustainable DAO Token (SDT) - Our token for managing SDAO and distribution treasury.</p>
+                                                </div>
+                                              
+                                            </div>
+                                            <div class="cpn-btns">
+                                                <ul class="btn-grp animated fadeInUp" data-animate="fadeInUp" data-delay="1.55" style="visibility: visible; animation-delay: 1.55s;">
+
+                                                    <li><a href="https://anoya.io/swap" class="btn btn-md btn-grad btn-grad-alternet btn-round">BUY SDT</a></li>
+                                                    <li>
+                                                        <a href="https://www.youtube.com/watch?v=tbO-tfZX3sc" class="video-popup btn-play-wrap animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
+                                                            <div class="btn-play btn-play-sm btn-play-s2">
+                                                                <em class="btn-play-icon"></em>
+                                                            </div>
+                                                            <div class="btn-play-text">
+                                                                <span class="text-sm">Watch Video</span>
+                                                                <span class="text-xs">What and How it work</span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="cpn-social">
+                                                <ul class="social">
+
+                                                    <li class="animated fadeInUp" data-animate="fadeInUp" data-delay="1.7" style="visibility: visible; animation-delay: 1.7s;"><a href="https://twitter.com/SdaoLife"><em class="social-icon fab fa-twitter"></em></a></li>
+                                                    <li class="animated fadeInUp" data-animate="fadeInUp" data-delay="1.75" style="visibility: visible; animation-delay: 1.75s;"><a href="https://www.youtube.com/channel/UCS5f1yqdM7ebjcKlzasjYFw"><em class="social-icon fab fa-youtube"></em></a></li>
+
+
+
+                                                    <li class="animated fadeInUp" data-animate="fadeInUp" data-delay="1.75" style="visibility: visible; animation-delay: 1.75s;"><a href="https://t.me/SustainableDAO"><em class="social-icon fab fa-telegram"></em></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- .col -->
+                                </div>
+                                <!-- .row -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .nk-banner -->
+                <div class="nk-ovm mask-c-dark shape-v mask-contain-bottom"></div>
+                <!-- Place Particle Js -->
+                <div id="particles-bg" class="particles-container particles-bg" data-pt-base="#00c0fa" data-pt-base-op=".3" data-pt-line="#2b56f5" data-pt-line-op=".5" data-pt-shape="#00c0fa" data-pt-shape-op=".2"><canvas class="particles-js-canvas-el" width="1272" height="942" style="width: 100%; height: 100%;"></canvas></div>
+            </div>
+            <!-- .header-banner @e -->
+        </header>
+        <main class="nk-pages">
+            <section class="section mask-c-blend-dark bg-theme-dark-alt tc-light ov-h" id="ico">
+                <div class="container">
+                    <!-- Block @s -->
+                    <div class="nk-block nk-block-text-wrap">
+                        <div class="row align-items-center justify-content-center justify-content-md-between gutter-vr-30px">
+                            <div class="col-mb-9 col-sm-7 col-md-6 col-lg-5 order-md-last">
+                                <div class="nk-block-img animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="visibility: visible; animation-delay: 0.1s;">
+                                    <img src="images/light/gfx-z-a.png" alt="app">
+                                </div>
+                            </div>
+                            <div class="col-sm-10 col-md-6 text-md-start">
+                                <div class="nk-block-text">
+                                    <h4 class="title animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s;">SDAO Values</h4>
+
+                                    <p class="lead animated fadeInUp" data-animate="fadeInUp" data-delay=".3" style="visibility: visible; animation-delay: 0.3s;">It's time to reform</p>
+                                    <ul class="list list-dot pdb-r">
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">Innovation. Implementing technology to improve efficiency and frugality</li>
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".55" style="visibility: visible; animation-delay: 0.55s;">Transparency. Control by all DAO participants over the use of funds from the DAO treasury</li>
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".65" style="visibility: visible; animation-delay: 0.65s;">Education. Accumulation and dissemination of information and practices on the organization of innovative management and investment systems.</li>
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">Open governance. Each member of the DAO votes and proposes an idea for voting.ter</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .row -->
+                    </div>
+                    <!-- .block @e -->
+                </div>
+            </section>
+            <!-- // -->
+            <section class="section bg-theme-dark-alt tc-light py-0 ov-h">
+                <div class="container">
+                    <!-- Block @s -->
+                    <div class="nk-block nk-block-features-2">
+                        <div class="row align-items-center gutter-vr-30px justify-content-center justify-content-md-between">
+                            <div class="col-mb-9 col-sm-7 col-md-6 col-lg-5">
+                                <div class="gfx py-4 animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="visibility: visible; animation-delay: 0.1s;">
+                                    <img src="images/light/sdao-goals--.png" alt="gfx">
+                                </div>
+                            </div>
+                            <!-- .col -->
+                            <div class="col-sm-10 col-md-6 text-md-start">
+                                <!-- Section Head @s -->
+                                <div class="nk-block-text">
+                                    <h4 class="title title-lg animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s;">SDAO Goals</h4>
+                                    <p class="lead animated fadeInUp" data-animate="fadeInUp" data-delay=".3" style="visibility: visible; animation-delay: 0.3s;">Blockchain infrastructure for managing and making decisions within the DAO</p>
+                                    <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;"></p>
+
+                                    <ul class="list list-dot pdb-r">
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">Create a secure blockchain infrastructure for managing and making decisions within the DAO, managing the treasury, delegating authority, programming smart contracts and executing them. Create a DAO token.</li>
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".55" style="visibility: visible; animation-delay: 0.55s;">Construction of a Sustainable Crypto City (SCC). A place to live, an example of sustainability, an example of Net Zero. Organization of mining in the SCC using heat for heating the house and heating greenhouses.
+                                            Creation of a cloud mining service for the sale of hashrate.</li>
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".65" style="visibility: visible; animation-delay: 0.65s;">An early stage investment unit. Support and assistance in the development of other projects and DAOs with related topics.</li>
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">Department of trading and information. Monitor social media and price changes on global platforms, on the markets of all assets. This is the key to our survival - awareness and the ability to make solidary and quick
+                                            decisions in a critical situation.</li>
+
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">Department of Education. We have created a knowledge base and filled it with up-to-date content and examples of how we can unite together, sharing the same values ​​and achieve our goals together as part of our
+                                            mission.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .row -->
+                    </div>
+                    <!-- .block @e -->
+                </div>
+            </section>
+            <section class="section bg-theme-dark-alt tc-light py-0 ov-h">
+                <div class="container">
+                    <!-- Block @s -->
+                    <div class="nk-block nk-block-features-2">
+                        <div class="row align-items-center gutter-vr-30px justify-content-center justify-content-md-between">
+                            <div class="col-mb-9 col-sm-7 col-md-6 col-lg-5">
+                                <div class="gfx py-4 animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="visibility: visible; animation-delay: 0.1s;">
+                                    <img src="images/light/image-3-sdao.png" alt="gfx">
+                                </div>
+                            </div>
+                            <div class="col-sm-10 col-md-6 text-md-start">
+                                <!-- Section Head @s -->
+                                <div class="nk-block-text">
+                                    <h4 class="title title-lg animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s;">SDAO Mission</h4>
+                                    <p class="lead animated fadeInUp" data-animate="fadeInUp" data-delay=".3" style="visibility: visible; animation-delay: 0.3s;">Transformation of the human environment</p>
+
+                                    <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">In a broader context, the mission of SDAO is the transformation of the human environment, the system of relationships, the acquisition of a harmonious and safe home, the organization of sustainable and environmentally
+                                        friendly cohabitation of a group of people connected by common values in the same territory.</p>
+                                    <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">The mission of the Sustainable DAO is to build a Sustainable Crypto City (SCC) through private investors and initiatives, showcasing the entire project implementation process to share knowledge in this area. The energy
+                                        of the SCC is obtained exclusively from RES (Renewable Energy Sources). City management is carried out within the DAO. </p>
+                                    <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">The internal currency is the SDAO Token, the internal security of which is supported by the mining of the SCC. SCC uses the heat from mining as a means of heating houses, as well as heating for agriculture and other
+                                        technological projects, using hot air or water (wood drying, winemaking, brewing). SCC provides its connection to the Internet using global satellite Internet coverage, such as Star Link. Budget planning and decision-making
+                                        within the SCC is carried out by voting on a proportional system, where the strength of the vote depends on the number of tokens in the wallet.</p>
+                                </div>
+                            </div>
+                            <!-- .col -->
+
+                        </div>
+                        <!-- .row -->
+                    </div>
+                    <!-- .block @e -->
+                </div>
+            </section>
+            <!-- // -->
+            <section class="section bg-theme-dark-alt tc-light">
+                <div class="container">
+
+                    <!-- Block @s -->
+                    <h4 class="title title-lg animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s;">Manifest SDAO</h4>
+                    <div class="nk-block nk-block-text-wrap">
+                        <div class="row align-items-center justify-content-center justify-content-md-between gutter-vr-30px">
+                            <div class="col-sm-10 col-md-6 col-lg-5">
+                                <div class="nk-block-text ms-lg-3 ms-xl-0">
+
+                                    <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">The world is unstable, we are falling into a vortex of chaotic and highly destructive events. We create systems with completely different parameters of fault tolerance and decision-making speed. </p>
+                                    <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">If we want to live in a free space where we influence processes, we can do it now, with the help of the DAO. This is the system that allows you to build sustainable relationships with people without relying on their
+                                        human qualities. </p>
+                                    <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">Smart contracts are able to reliably manage many processes and reward really active and useful DAO participants. It is important to organize the management and sustainability of the decision-making system for any life
+                                        situation, so that the mission of the DAO, based on the values ​​of the DAO, is brought to life.</p>
+                                    <ul class="list list-dot pdb-r">
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">Metamask</li>
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".55" style="visibility: visible; animation-delay: 0.55s;">Discord</li>
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".65" style="visibility: visible; animation-delay: 0.65s;">Telegram</li>
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">Twitter</li>
+
+                                    </ul>
+                                    <ul class="btn-grp justify-content-center justify-content-md-start">
+                                        <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".85" style="visibility: visible; animation-delay: 0.85s;"><a href="https://anoya.io/swap" class="btn btn-grad btn-round btn-md">Buy SDT with Anoya.io</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div><div class="col-mb-9 col-sm-7 col-md-6">
+                                <div class="nk-block-img animated fadeInUp" data-animate="fadeInUp" data-delay=".3" style="visibility: visible; animation-delay: 0.3s;">
+                                    <img src="images/light/manifest.png" alt="manifest SDAO">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- .row -->
+                    </div>
+                    <!-- .block @e -->
+                </div>
+            </section>
+            <!-- // -->
+
+            <!-- // -->
+
+            <!-- // -->
+
+            <section class="section bg-theme-dark tc-light" id="partners">
+                <div class="container">
+                    <!-- Section Head @s -->
+                    <div class="section-head text-center wide-auto-sm tc-light">
+                        <h2 class="title title-s4 animated fadeInUp" data-animate="fadeInUp" data-delay=".1" title="Partners" style="visibility: visible; animation-delay: 0.1s;">SDAO Partners</h2>
+                    </div>
+                    <!-- .section-head @e -->
+                    <!-- Block @s -->
+                    <div class="nk-block block-partners">
+                        <ul class="partner-list flex-wrap">
+                            <li class="partner-logo-lg animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; opacity: 0.5; animation-delay: 0.2s;"><a href="https://anoya.io/"><img src="images/anoya.png" style="opacity:0.6" alt="partner"></a></li>
+
+
+
+
+                        </ul>
+                    </div>
+                    <!-- Block @e -->
+                </div>
+            </section>
+            <!-- // -->
+            <section class="section bg-theme-alt tc-light section-connect" id="media-partner">
+                <div class="transform-line"></div>
+                <div class="container">
+                    <!-- Section Head @s -->
+                    <div class="section-head wide-auto-sm text-center">
+                        
+                    </div>
+                    <!-- .section-head @e -->
+                    <!-- Block @s -->
+                    <div class="nk-block block-partners">
+                        <ul class="partner-list partner-list-s2 flex-wrap">
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li class="partner-logo-s2 animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;"><img src="images/partners/xrp-i.png" alt="partner"></li>
+                            <li class="partner-logo-s2 animated fadeInUp" data-animate="fadeInUp" data-delay=".55" style="visibility: visible; animation-delay: 0.55s;"><img src="images/partners/binance-i.png" alt="partner"></li>
+                            <li class="partner-logo-s2 animated fadeInUp" data-animate="fadeInUp" data-delay=".6" style="visibility: visible; animation-delay: 0.6s;"><img src="images/partners/xumm-i.png" alt="partner"></li>
+                            
+                        </ul>
+                    </div>
+                    <!-- Block @e -->
+                </div>
+            </section>
+            <!-- // -->
+
+            <!-- // -->
+            <section class="section bg-theme tc-light pb-0" id="faqs">
+                <div class="container">
+                    <div class="section-head wide-auto-sm">
+                        <h2 class="title title-s4 animated fadeInUp" data-animate="fadeInUp" data-delay=".1" title="FAQS" style="visibility: visible; animation-delay: 0.1s;">Frequently Asked Question</h2>
+
+                    </div>
+                    <!-- .section-head @e -->
+                    <!-- Block @s -->
+                    <div class="nk-block overflow-hidden">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8 col-lg-10">
+                                <ul class="nav tab-nav tab-nav-line mgb-r animated fadeInUp" data-animate="fadeInUp" data-delay=".3" style="visibility: visible; animation-delay: 0.3s;">
+                                    <li><a class="" data-bs-toggle="tab" href="#dao-faq">DAO</a></li>
+                                    <li><a data-bs-toggle="tab" href="#sdao-faq" class="">SDAO</a></li>
+                                    <li><a data-bs-toggle="tab" href="#sdt-faq" class="">SDT</a></li>
+                                    <li><a data-bs-toggle="tab" href="#psdt-faq" class="active">Participation in SDAO</a></li>
+                                    <li><a data-bs-toggle="tab" href="#legal-faq" class="">Legal status of DAO</a></li>
+                                </ul>
+                                <div class="tab-content animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
+                                    <div class="tab-pane fade" id="dao-faq">
+                                        <div class="accordion accordion-s1 accordion-faq" id="faq-67">
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt current">
+                                                <h5 class="accordion-title" data-bs-toggle="collapse" data-bs-target="#faq-67-1" aria-expanded="true"> What is DAO? <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-67-1" class="collapse show" data-bs-parent="#faq-67" style="">
+                                                    <div class="accordion-content">
+                                                        <p>DAO is a decentralized autonomous organization. Well, the most obvious thing is that DAOs work on the blockchain.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-67-2" aria-expanded="false">What makes DAO different from other companies or communities?
+                                                    <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-67-2" class="collapse" data-bs-parent="#faq-67" style="">
+                                                    <div class="accordion-content">
+                                                        <p>From the organizations we are used to, DAO is distinguished by a horizontal management structure, collective decision-making, transparency in the movement of funds, and geographical distribution
+                                                            of participants.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-67-3" aria-expanded="false">Who makes the main decisions in the DAO?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-67-3" class="collapse" data-bs-parent="#faq-67" style="">
+                                                    <div class="accordion-content">
+                                                        <p>“Think of the DAO,” urges the official Ethereum website, “as a native internet business that is collectively owned and operated by its members. This business has a treasury that no one has access
+                                                            to without group approval. Decisions are made through proposals and votes…. There is no CEO who can authorize spending based on his own whims. And there is no chance that the dodgy CFO will fix
+                                                            something in the ledgers. Everything is open and the rules regarding spending are built into the DAO through their code.”</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-67-4" aria-expanded="false">How is the voting process going?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-67-4" class="collapse" data-bs-parent="#faq-67" style="">
+                                                    <div class="accordion-content">
+                                                        <p>The members of this organizational structure are equally responsible for its progress, since all key decisions are taken by a general vote. At the same time, everyone can choose the amount of time
+                                                            and effort that he is willing to invest in order for this progress to be achieved. The more effort you put in, the more tokens you hold, which means you have more voting power.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-67-5" aria-expanded="false">Can I put questions to a vote?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-67-5" class="collapse" data-bs-parent="#faq-67" style="">
+                                                    <div class="accordion-content">
+                                                        <p>Yes, each member of the DAO can put questions to the vote. DAO is a form of organization that provides an opportunity to build a self-governing community with common interests, in which everyone
+                                                            feels the value of their contribution.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-67-6" aria-expanded="false">Why are DAOs becoming popular?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-67-6" class="collapse" data-bs-parent="#faq-67" style="">
+                                                    <div class="accordion-content">
+                                                        <p>Of course, one can refer to the novelty effect, but it would be fundamentally wrong to reduce the emerging popularity of the DAO to the usual network hype. One of the main reasons why more entrepreneurs,
+                                                            artists, and activists are getting involved in the DAO is that these structures are changing the way organizations and systems should be run.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="sdao-faq">
+                                        <div class="accordion accordion-s1 accordion-faq" id="faq-68">
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-68-1" aria-expanded="false">Why is SDAO necessary?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-68-1" class="collapse" data-bs-parent="#faq-68" style="">
+                                                    <div class="accordion-content">
+                                                        <p>In a broader context, the mission of SDAO is the transformation of the human environment, the system of relationships, the acquisition of a harmonious and safe home, the organization of sustainable
+                                                            and environmentally friendly cohabitation of a group of people connected by common values ​​in the same territory.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-68-2" aria-expanded="false">What can SDAO give me personally?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-68-2" class="collapse" data-bs-parent="#faq-68" style="">
+                                                    <div class="accordion-content">
+                                                        <p>Find like-minded people around the world who share the same values ​​and strive for the same goals as you. Equality of votes in decision making based on the number of tokens. Transparent project
+                                                            management system. Opportunity to participate in the project at an early stage of development. The opportunity to buy DAO tokens and earn on their sale in the future.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="sdt-faq">
+                                        <div class="accordion accordion-s1 accordion-faq" id="faq-69">
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-69-1" aria-expanded="false">SDAO Token (SDT) - what is it?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-69-1" class="collapse" data-bs-parent="#faq-69" style="">
+                                                    <div class="accordion-content">
+                                                        <p>This is a token created by early participants in our DAO on the Binance Smart Chain (BEP-20). It is available for storage in MetaMask, freely transferable and available for purchase.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-69-2" aria-expanded="false">Why is SDT needed?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-69-2" class="collapse" data-bs-parent="#faq-69" style="">
+                                                    <div class="accordion-content">
+                                                        <p>This is the token of our DAO, which is used to evaluate the weight of the vote when voting on each issue of the DAO. It gives you the opportunity to leave the DAO at any time and fix the result of
+                                                            your participation in the life of the community by selling SDT to other members of the DAO or on the open market.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt current">
+                                                <h5 class="accordion-title" data-bs-toggle="collapse" data-bs-target="#faq-69-3" aria-expanded="true">How many of these tokens are there?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-69-3" class="collapse show" data-bs-parent="#faq-69" style="">
+                                                    <div class="accordion-content">
+                                                        <p>The total offer is currently 10,000 SDT.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-69-4" aria-expanded="false">How much is the SDT token worth?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-69-4" class="collapse" data-bs-parent="#faq-69">
+                                                    <div class="accordion-content">
+                                                        <p>1 SDT = 1 USDT</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-69-5" aria-expanded="false">Where can you buy it?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-69-5" class="collapse" data-bs-parent="#faq-69">
+                                                    <div class="accordion-content">
+                                                        <p>https://anoya.io/swap</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-69-6" aria-expanded="false">Where can you store SDT?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-69-6" class="collapse" data-bs-parent="#faq-69">
+                                                    <div class="accordion-content">
+                                                        <p>In MetaMask and other wallets that support tokens on Binance Smart Chain (BSC, BEP-20)</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-69-7" aria-expanded="false">Can I transfer the SDT to another person if I want to, and what happens then?<span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-69-7" class="collapse" data-bs-parent="#faq-69">
+                                                    <div class="accordion-content">
+                                                        <p>Yes, you can, as soon as you have 0 SDT left on your wallet, you will lose access to private information that is available only to DAO members.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade active show" id="psdt-faq">
+                                        <div class="accordion accordion-s1 accordion-faq" id="faq-70">
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-70-1" aria-expanded="false"> How to become a member of SDAO? <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-70-1" class="collapse" data-bs-parent="#faq-70" style="">
+                                                    <div class="accordion-content">
+                                                        <p>Buy SDT tokens. <br> Join us on social networks:<br> <a href="#">Telegram </a><br><a href="#">Twitter </a><br><a href="#">Youtube </a><br> Contact us in a convenient way.<br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt current">
+                                                <h5 class="accordion-title" data-bs-toggle="collapse" data-bs-target="#faq-70-2" aria-expanded="true"> What will I have to do as a member of SDAO? <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-70-2" class="collapse show" data-bs-parent="#faq-70" style="">
+                                                    <div class="accordion-content">
+                                                        <p>Contribute to the achievement of SDAO goals.<br> Submit questions and take part in voting.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-70-3" aria-expanded="false"> What will I be prohibited from doing? <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-70-3" class="collapse" data-bs-parent="#faq-70">
+                                                    <div class="accordion-content">
+                                                        <p>Anything that goes against SDAO rules.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-70-4" aria-expanded="false"> Can I leave SDAO at any time? <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-70-4" class="collapse" data-bs-parent="#faq-70">
+                                                    <div class="accordion-content">
+                                                        <p>Yes, for this it is enough to sell or transfer all SDT tokens and unsubscribe from social networks.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-70-5" aria-expanded="false"> Will I lose all SDT if I decide to leave SDAO? <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-70-5" class="collapse" data-bs-parent="#faq-70">
+                                                    <div class="accordion-content">
+                                                        <p>No, each SDAO participant can stop actively participating in the life of the SDAO and continue to own SDT tokens, which is not desirable for our community.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="legal-faq">
+                                        <div class="accordion accordion-s1 accordion-faq" id="faq-71">
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-71-1" aria-expanded="false"> Is DAO even legal? <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-71-1" class="collapse" data-bs-parent="#faq-71" style="">
+                                                    <div class="accordion-content">
+                                                        <p>In some US states, DAOs are recognized as a legal type of legal entity, just like since the beginning of this year - in the Marshall Islands. A number of other countries (Switzerland, Liechtenstein,
+                                                            Malta, Singapore, Cayman Islands, British Virgin Islands, Bahamas, Panama) recognize DAO mechanisms.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-71-2" aria-expanded="false"> Do I need to pay taxes or notify the tax office of my DAO membership? <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-71-2" class="collapse" data-bs-parent="#faq-71">
+                                                    <div class="accordion-content">
+                                                        <p>If you are asking this question, then yes.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-71-3" aria-expanded="false"> My lawyer tells me DAO is illegal, is he right? <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-71-3" class="collapse" data-bs-parent="#faq-71">
+                                                    <div class="accordion-content">
+                                                        <p>No, most jurisdictions in the world do not have clear legislation regarding the DAO, but where there are laws, the DAO is quite legal. There is no direct indication in any country in the world that
+                                                            participation in the DAO or its organization is an illegal activity.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-71-4" aria-expanded="false"> In what country is the SDAO registered and what is its registration number? <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-71-4" class="collapse" data-bs-parent="#faq-71">
+                                                    <div class="accordion-content">
+                                                        <p>SDAO does not have a state registration because, by its nature, it is located outside of any state. At the same time, it should be noted that when carrying out its activities on the territory of
+                                                            any state, SDAO always strives to comply with the laws and respect the traditions of this state.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item accordion-item-s4 bg-theme-alt">
+                                                <h5 class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#faq-71-5" aria-expanded="false">It seems to me that DAO is just some new kind of scam, am I right?</h5>
+                                                <div id="faq-71-5" class="collapse" data-bs-parent="#faq-71" style="">
+                                                    <div class="accordion-content">
+                                                        <p>Here is what the world media is saying about the DAO. The American Forbes published a column on the topic “What is the DAO” last year, the NY Times and The Economist wrote their explanations already
+                                                            in 2022. Publications emphasize that the DAO is a nascent phenomenon, and it is too early to talk about how successful it is. However, they are cautiously calling it “an exciting experiment gaining
+                                                            momentum” and “one of the fastest growing segments of the crypto ecosystem.”</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .col -->
+                        </div>
+                        <!-- .row -->
+                    </div>
+                    <!-- .block @e -->
+                </div>
+            </section>
+            <!-- // -->
+            <section class="section section-contact bg-theme tc-light" id="contact">
+                <div class="container">
+                    <div class="section-head text-center wide-auto-sm">
+                        <h2 class="title title-s4 animated fadeInUp" data-animate="fadeInUp" data-delay=".1" title="Contact" style="visibility: visible; animation-delay: 0.1s;">Contact SDAO</h2>
+                        <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s;">Any question? Reach out to us and we’ll get back to you shortly.</p>
+                    </div>
+                    <!-- .section-head @e -->
+                    <!-- Block @s -->
+                    <div class="nk-block block-contact">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-xl-8 col-lg-10">
+                                <ul class="contact-list contact-list-s1 flex-wrap flex-md-nowrap pdb-l">
+
+                                    <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
+                                        <a href="mailto:info@sdao.life"><em class="contact-icon fas fa-envelope"></em></a>
+                                        <div class="contact-text">
+                                            <span>info@sdao.life</span>
+                                        </div>
+                                    </li>
+                                    <li class="animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">
+                                        <a href="https://t.me/SustainableDAO"><em class="contact-icon fas fa-paper-plane"></em></a>
+                                        <div class="contact-text">
+                                            <span>Join us on Telegram</span>
+                                        </div>
+</li>
+                                </ul>
+                            </div>
+                            <!-- .col -->
+                            <div class="col-xl-8 col-lg-10">
+                                <div class="contact-wrap p-0">
+                                    <form id="contact-form-01" class="contact-form nk-form-submit" action="form/contact.php" method="post" novalidate="novalidate">
+                                        <div class="field-item field-item-center animated fadeInUp" data-animate="fadeInUp" data-delay=".6" style="visibility: visible; animation-delay: 0.6s;">
+                                            <input name="contact-name" type="text" class="input-line required">
+                                            <label class="field-label field-label-line">Your Name</label>
+                                        </div>
+                                        <div class="field-item field-item-center animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">
+                                            <input name="contact-email" type="email" class="input-line input-line-center required email">
+                                            <label class="field-label field-label-line">Your Email</label>
+                                        </div>
+                                        <div class="field-item field-item-center animated fadeInUp" data-animate="fadeInUp" data-delay=".8" style="visibility: visible; animation-delay: 0.8s;">
+                                            <textarea name="contact-message" class="input-line input-line-center input-textarea required"></textarea>
+                                            <label class="field-label field-label-line">Your Message</label>
+                                        </div>
+                                        <input type="text" class="d-none" name="form-anti-honeypot" value="">
+                                        <div class="field-wrap animated fadeInUp" data-animate="fadeInUp" data-delay=".9" style="visibility: visible; animation-delay: 0.9s;">
+                                            <button type="submit" class="btn btn-round btn-lg btn-grad">Submit</button>
+                                            <div class="form-results"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- .col -->
+                        </div>
+                        <!-- .row -->
+                    </div>
+                    <!-- .block @e -->
+                </div>
+            </section>
+            <!-- // -->
+        </main>
+        <!-- Footer -->
+        <footer class="nk-footer bg-theme-alt section-connect">
+            <div class="section section-m pb-0 tc-light ov-h has-ovm">
+                <div class="container py-4">
+                    <!-- Block @s -->
+                    <div class="nk-block pb-lg-5">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-6 col-md-9">
+                                <div class="wide-auto-sm section-head section-head-sm pdb-r">
+                                    <h4 class="title title-md animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="visibility: visible; animation-delay: 0.1s;">Don't miss out, Stay updated</h4>
+                                </div>
+                                <form action="form/subscribe.php" class="nk-form-submit" method="post" novalidate="novalidate">
+                                    <div class="field-inline field-inline-round field-inline-s2-sm bg-theme-dark-alt shadow-soft animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s;">
+                                        <div class="field-wrap">
+                                            <input class="input-solid input-solid-md required email" type="text" name="contact-email" placeholder="Enter your email">
+                                            <input type="text" class="d-none" name="form-anti-honeypot" value="">
+                                        </div>
+                                        <div class="submit-wrap">
+                                            <button class="btn btn-md btn-round btn-grad h-100">Subscribe</button>
+                                        </div>
+                                    </div>
+                                    <div class="form-results"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .block @e -->
+                </div>
+                <div class="nk-ovm shape-contain shape-center-top shape-p"></div>
+            </div>
+            <div class="section section-footer section-s tc-light bg-transparent">
+                <div class="container">
+                    <!-- Block @s -->
+                    <div class="nk-block block-footer">
+                        <div class="row">
+                            <div class="col">
+                                <div class="wgs wgs-text text-center mb-3">
+                                    
+                                    <ul class="social pdb-m justify-content-center">
+
+                                                    <li class="animated fadeInUp" data-animate="fadeInUp" data-delay="1.7" style="visibility: visible; animation-delay: 1.7s;"><a href="https://twitter.com/SdaoLife"><em class="social-icon fab fa-twitter"></em></a></li>
+                                                    <li class="animated fadeInUp" data-animate="fadeInUp" data-delay="1.75" style="visibility: visible; animation-delay: 1.75s;"><a href="https://www.youtube.com/channel/UCS5f1yqdM7ebjcKlzasjYFw"><em class="social-icon fab fa-youtube"></em></a></li>
+
+
+
+                                                    <li class="animated fadeInUp" data-animate="fadeInUp" data-delay="1.75" style="visibility: visible; animation-delay: 1.75s;"><a href="https://t.me/SustainableDAO"><em class="social-icon fab fa-telegram"></em></a></li>
+                                                </ul><div class="copyright-text copyright-text-s3 pdt-m">
+                                        <p> 2022, SDAO</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .block @e -->
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Preloader -->
+    <div class="preloader" style="display: none;"><span class="spinner spinner-round load-done" style="display: none;"></span></div>
+    <!-- JavaScript -->
+    <script src="assets/js/jquery.bundle.js?ver=200"></script>
+    <script src="assets/js/scripts.js?ver=200"></script>
+    <script src="assets/js/charts.js?ver=200"></script>
+    <script src="assets/js/charts.js?ver=200"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

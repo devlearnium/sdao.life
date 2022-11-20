@@ -1,0 +1,16 @@
+<svg width="32" height="35" viewBox="0 0 32 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31 17.5C31 25.4784 24.3144 32 16 32C7.68556 32 1 25.4784 1 17.5C1 9.52156 7.68556 3 16 3C24.3144 3 31 9.52156 31 17.5Z" stroke="#03DBE8" stroke-width="2"/>
+<circle cx="2.5" cy="10.5" r="2.5" fill="white"/>
+<circle cx="29.5" cy="11.5" r="2.5" fill="white"/>
+<circle cx="16.5" cy="2.5" r="2.5" fill="white"/>
+<circle cx="2.5" cy="25.5" r="2.5" fill="white"/>
+<circle cx="29.5" cy="25.5" r="2.5" fill="white"/>
+<circle cx="15.5" cy="32.5" r="2.5" fill="white"/>
+<circle cx="16" cy="17" r="8" stroke="#15939A" stroke-width="2"/>
+<circle cx="7.5" cy="17.5" r="2.5" fill="#ACF0F3"/>
+<circle cx="23.5" cy="17.5" r="2.5" fill="#ACF0F3"/>
+<circle cx="11.5" cy="10.5" r="2.5" fill="#ACF0F3"/>
+<circle cx="20.5" cy="10.5" r="2.5" fill="#ACF0F3"/>
+<circle cx="20.5" cy="24.5" r="2.5" fill="#ACF0F3"/>
+<circle cx="11.5" cy="24.5" r="2.5" fill="#ACF0F3"/>
+</svg>
